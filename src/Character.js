@@ -26,23 +26,7 @@ class Character {
 
   get type() {
     return this._type;
-  }
-
-  levelUp() {
-    if (this.health > 0) {
-      this.level++;
-      this.attack *= 1.2;
-      this.health = 100;
-    } else {
-      throw new Error("you are dead");
-    }
-  }
-
-  damage(points) {
-    if (this.health > 0) {
-      this.health -= points * (1 - this.defence / 100);
-    }
-  }
+  }  
 }
 
 export default Character;

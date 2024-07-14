@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/1wt2cxvlryar3ghu?svg=true)](https://ci.appveyor.com/project/valeriiadeikina/homwork-oop)
+[![Build status](https://ci.appveyor.com/api/projects/status/yqypvcdhok94b2nv?svg=true)](https://ci.appveyor.com/project/valeriiadeikina/oop-homework)
