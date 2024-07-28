@@ -11,13 +11,15 @@ class Character {
   }
 
   set type(value) {
-    if (
-      value == "Bowman" ||
-      value == "Swordsman" ||
-      value == "Magician" ||
-      value == "Undead" ||
-      value == "Zombie"
-    ) {
+    const validTypes = [
+      "Bowman",
+      "Swordsman",
+      "Magician",
+      "Daemon",
+      "Undead",
+      "Zombie",
+    ];
+    if (validTypes.includes(value)) {
       this._type = value;
     } else {
       throw new Error("wrong type");
@@ -26,7 +28,7 @@ class Character {
 
   get type() {
     return this._type;
-  }  
+  }
 }
 
 export default Character;
